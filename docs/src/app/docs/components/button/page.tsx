@@ -1,5 +1,5 @@
 'use client';
-import { Button } from '@wabalabudabdab/genlab-ui';
+import { Button } from '@wabalabudabdab/petri-ui';
 import { DocPage, DocSection } from '@/components/doc-page';
 import { ComponentPreview } from '@/components/component-preview';
 import { PropsTable } from '@/components/props-table';
@@ -34,7 +34,7 @@ export default function Page() {
         ]} />
       </DocSection>
       <DocSection title="Импорт">
-        <CodeBlock code={`import { Button } from '@wabalabudabdab/genlab-ui';`} />
+        <CodeBlock code={`import { Button } from '@wabalabudabdab/petri-ui';`} />
       </DocSection>
     </DocPage>
   );

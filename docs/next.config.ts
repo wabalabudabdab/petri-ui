@@ -7,12 +7,12 @@ const nextConfig: NextConfig = {
   typescript: { ignoreBuildErrors: true },
   turbopack: {
     resolveAlias: {
-      '@wabalabudabdab/genlab-ui': '../src/index.ts',
+      '@wabalabudabdab/petri-ui': '../src/index.ts',
     },
   },
   webpack: (config) => {
     const path = require('path');
-    config.resolve.alias['@wabalabudabdab/genlab-ui'] = path.resolve(
+    config.resolve.alias['@wabalabudabdab/petri-ui'] = path.resolve(
       process.cwd(),
       '../src/index.ts',
     );

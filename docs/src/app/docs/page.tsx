@@ -5,7 +5,7 @@ export default function IntroPage() {
     <div className="space-y-8">
       <div>
         <h1 className="text-3xl font-bold">Введение</h1>
-        <p className="mt-2 text-lg text-muted-foreground">GenLab UI — библиотека переиспользуемых React-компонентов для проектов GenLab.</p>
+        <p className="mt-2 text-lg text-muted-foreground">Petri UI — библиотека переиспользуемых React-компонентов для проектов.</p>
       </div>
       <div className="space-y-4">
         <h2 className="text-xl font-semibold">Стек</h2>
@@ -19,8 +19,8 @@ export default function IntroPage() {
       </div>
       <div className="space-y-4">
         <h2 className="text-xl font-semibold">Быстрый старт</h2>
-        <CodeBlock code={`bun add @wabalabudabdab/genlab-ui`} filename="Terminal" />
-        <CodeBlock code={`import { Button, Card, Dialog } from '@wabalabudabdab/genlab-ui';`} filename="App.tsx" />
+        <CodeBlock code={`bun add @wabalabudabdab/petri-ui`} filename="Terminal" />
+        <CodeBlock code={`import { Button, Card, Dialog } from '@wabalabudabdab/petri-ui';`} filename="App.tsx" />
       </div>
     </div>
   );

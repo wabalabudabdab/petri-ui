@@ -27,7 +27,7 @@
       "@/*": [
         "./src/*"
       ],
-      "@wabalabudabdab/genlab-ui": [
+      "@wabalabudabdab/petri-ui": [
         "../src/index.ts"
       ]
     }

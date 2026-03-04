@@ -4,7 +4,7 @@ import { ThemeProvider } from 'next-themes';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'GenLab UI — Библиотека компонентов',
+  title: 'Petri UI — Библиотека компонентов',
   description: 'React-компоненты на базе Radix UI и Tailwind CSS',
 };
 

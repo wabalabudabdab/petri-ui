@@ -79,3 +79,25 @@ export { LoadingState } from './components/loading-state';
 export { EmptyState } from './components/empty-state';
 export { PageTitle } from './components/page-title';
 export { HighlightText } from './components/highlight-text';
+
+// Sonner (toast)
+export { Toaster } from './components/sonner';
+
+// Form (react-hook-form)
+export {
+  useFormField, Form, FormItem, FormLabel, FormControl,
+  FormDescription, FormMessage, FormField,
+} from './components/form';
+
+// Calendar (react-day-picker)
+export { Calendar, CalendarDayButton } from './components/calendar';
+
+// Sidebar
+export {
+  Sidebar, SidebarContent, SidebarFooter, SidebarGroup, SidebarGroupAction,
+  SidebarGroupContent, SidebarGroupLabel, SidebarHeader, SidebarInput,
+  SidebarInset, SidebarMenu, SidebarMenuAction, SidebarMenuBadge,
+  SidebarMenuButton, SidebarMenuItem, SidebarMenuSkeleton, SidebarMenuSub,
+  SidebarMenuSubButton, SidebarMenuSubItem, SidebarProvider, SidebarRail,
+  SidebarSeparator, SidebarTrigger, useSidebar,
+} from './components/sidebar';

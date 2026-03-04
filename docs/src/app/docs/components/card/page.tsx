@@ -1,5 +1,5 @@
 'use client';
-import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter, Button } from '@wabalabudabdab/genlab-ui';
+import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter, Button } from '@wabalabudabdab/petri-ui';
 import { DocPage, DocSection } from '@/components/doc-page';
 import { ComponentPreview } from '@/components/component-preview';
 import { CodeBlock } from '@/components/code-block';
@@ -11,7 +11,7 @@ export default function Page() {
           <Card className="w-full max-w-sm"><CardHeader><CardTitle>Заголовок</CardTitle><CardDescription>Описание</CardDescription></CardHeader><CardContent><p>Контент карточки.</p></CardContent><CardFooter><Button>OK</Button></CardFooter></Card>
         </ComponentPreview>
       </DocSection>
-      <DocSection title="Импорт"><CodeBlock code={`import { Card, CardHeader, CardTitle, CardContent, CardFooter } from '@wabalabudabdab/genlab-ui';`} /></DocSection>
+      <DocSection title="Импорт"><CodeBlock code={`import { Card, CardHeader, CardTitle, CardContent, CardFooter } from '@wabalabudabdab/petri-ui';`} /></DocSection>
     </DocPage>
   );
 }

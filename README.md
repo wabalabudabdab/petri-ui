@@ -1,6 +1,6 @@
-# @wabalabudabdab/genlab-ui
+# @wabalabudabdab/petri-ui
 
-Библиотека переиспользуемых React UI-компонентов для проектов GenLab.
+Библиотека переиспользуемых React UI-компонентов для проектов.
 
 - **30+ компонентов** — кнопки, формы, диалоги, таблицы, карточки, навигация
 - **Radix UI** — headless accessibility primitives
@@ -17,9 +17,9 @@
 //npm.pkg.github.com/:_authToken=YOUR_GITHUB_TOKEN
 
 # 2. Установите
-bun add @wabalabudabdab/genlab-ui
+bun add @wabalabudabdab/petri-ui
 # или
-npm install @wabalabudabdab/genlab-ui
+npm install @wabalabudabdab/petri-ui
 ```
 
 ### Peer-зависимости
@@ -31,7 +31,7 @@ bun add react react-dom tailwindcss
 ## Использование
 
 ```tsx
-import { Button, Card, CardHeader, CardTitle, CardContent } from '@wabalabudabdab/genlab-ui';
+import { Button, Card, CardHeader, CardTitle, CardContent } from '@wabalabudabdab/petri-ui';
 
 export function MyComponent() {
   return (

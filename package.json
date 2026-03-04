@@ -1,7 +1,7 @@
 {
-  "name": "@wabalabudabdab/genlab-ui",
+  "name": "@wabalabudabdab/petri-ui",
   "version": "0.3.0",
-  "description": "UI компоненты GenLab — React + Radix UI + Tailwind CSS + CVA",
+  "description": "UI компоненты Petri — React + Radix UI + Tailwind CSS + CVA",
   "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
@@ -47,6 +47,10 @@
     "clsx": "^2.1.1",
     "cmdk": "^1.1.1",
     "lucide-react": "^0.532.0",
+    "react-day-picker": "^9.10.0",
+    "react-hook-form": "^7.54.0",
+    "sonner": "^2.0.6",
+    "next-themes": "^0.4.6",
     "tailwind-merge": "^3.3.1"
   },
   "devDependencies": {
@@ -56,6 +60,6 @@
     "typescript": "^5"
   },
   "license": "MIT",
-  "repository": { "type": "git", "url": "https://github.com/wabalabudabdab/genlab-ui.git" },
-  "homepage": "https://wabalabudabdab.github.io/genlab-ui"
+  "repository": { "type": "git", "url": "https://github.com/wabalabudabdab/petri-ui.git" },
+  "homepage": "https://wabalabudabdab.github.io/petri-ui"
 }

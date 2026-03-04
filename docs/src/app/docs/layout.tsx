@@ -7,9 +7,9 @@ export default function DocsLayout({ children }: { children: React.ReactNode }) 
     <div className="min-h-screen">
       <header className="sticky top-0 z-50 border-b bg-background/95 backdrop-blur">
         <div className="container mx-auto flex h-14 items-center justify-between px-6">
-          <Link href="/" className="text-lg font-bold">GenLab UI</Link>
+          <Link href="/" className="text-lg font-bold">Petri UI</Link>
           <div className="flex items-center gap-4">
-            <a href="https://github.com/wabalabudabdab/genlab-ui" target="_blank" className="text-sm text-muted-foreground hover:text-foreground">GitHub</a>
+            <a href="https://github.com/wabalabudabdab/petri-ui" target="_blank" className="text-sm text-muted-foreground hover:text-foreground">GitHub</a>
             <ThemeToggle />
           </div>
         </div>
