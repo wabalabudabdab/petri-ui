@@ -163,7 +163,9 @@ export function MyComponent() {
 
 ## Документация
 
-Полная документация с live preview доступна:
+📖 **[wabalabudabdab.github.io/petri-ui/docs](https://wabalabudabdab.github.io/petri-ui/docs)**
+
+Или запустите локально:
 
 ```bash
 cd docs && bun install && bun run dev
